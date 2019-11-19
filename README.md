@@ -7,3 +7,4 @@
 
  ## Project description
  This is an application that allows you to views various news sources and articles from the news sources.
+ If you want to catch up with your news this app is meant for you
