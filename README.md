@@ -11,3 +11,4 @@
 
 
  ## Project setup instructions:
+ Install Flask and Python 3.6
