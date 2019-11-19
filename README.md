@@ -1,6 +1,7 @@
 #News-Highlits
  An application created using Flask (microframe work for python)
 
+
  ## Author name
  AUDREY MACHARIA
 
@@ -12,3 +13,5 @@
 
  ## Project setup instructions:
  Install Flask and Python 3.6
+
+ clone in your local machine
