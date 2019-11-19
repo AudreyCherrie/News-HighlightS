@@ -6,3 +6,4 @@
 
 
  ## Project description
+ This is an application that allows you to views various news sources and articles from the news sources.
