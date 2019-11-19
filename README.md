@@ -15,3 +15,5 @@
  Install Flask and Python 3.6
 
  clone in your local machine
+
+ run stash from your terminal
