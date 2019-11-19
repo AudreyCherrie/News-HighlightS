@@ -1,9 +1,10 @@
+import os
 class Config:
     '''
     General configuration parent class
     '''
-    NEWS_API_BASE_URL ='https://newsapi.org/v2/everything?q=bitcoin&from=2019-10-18&sortBy=publishedAt&apiKey ={}'
-    NEWS_SOURCES_URL ='https://newsapi.org/v2/top-headlines?country=au&apiKey={}'
+    #NEWS_API_BASE_URL ='https://newsapi.org/v2/everything?q=bitcoin&from=2019-10-18&sortBy=publishedAt&apiKey ={}'
+    NEWS_SOURCES_URL ='https://newsapi.org/v2/sources?apiKey=b8629f2cdc4f4bfa8f50558eb45e194b'
     NEWS_API_KEY =os.environ.get('NEWS_API_KEY')
 
 

@@ -10,15 +10,15 @@ source_url =None
 def  configure_request(app):
     #we make the variables global for them to be accessed by the whole application
     global api_key,base_url,source_url
-    api_key= app.config['NEWS_API_KEY']
-    base_url= app.config['NEWS_API_BASE_URL']
+    api_key='b8629f2cdc4f4bfa8f50558eb45e194b'
+    base_url= app.config['NEWS_SOURCES_URL']
     source_url=app.config['NEWS_SOURCES_URL']
 
 def get_sources(country,category):
     '''
     function that gets the json response and converts to python dictionary
     '''
-    get_sources_url =base_url.format(country,category,api_key)
+    get_sources_url =base_url.format(country,category)
 
     with urllib.request.urlopen(get_sources_url) as url:
          get_sources_data =url.read()
